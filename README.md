@@ -39,7 +39,7 @@ Custom Code Field on Contact Form: ![screenshot-custom-addon-app.png](static%2Fd
 Kavin Chandrasekar
 [GitHub](https://github.com/KavinChandrasekar)
 
-## For New Developers
+### For New Developers
 * Odoo models, fields and the ORM
 * XML views with inherit_id + xpath
 * How to extend core ERP features cleanly
