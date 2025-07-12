@@ -34,11 +34,19 @@
 | Result              | Sets `follow_up_done = True` |
 
 ## 🔍 Screenshots
-*![screenshot-contacts-custom-field.png](static%2Fdescription%2Fscreenshot-contacts-custom-field.png)
+### custom field `Custom Code` to Contact
+*
+![screenshot-contacts-custom-field.png](static%2Fdescription%2Fscreenshot-contacts-custom-field.png)
 ![screenshot-custom-addon-app.png](static%2Fdescription%2Fscreenshot-custom-addon-app.png)
-![ss-cron-job-output.png](static%2Fdescription%2Fss-cron-job-output.png)
+* 
+
+### `Follow-Up Date` and `Follow-Up Done` fields
+*
+![ss-followup-fields.png](static%2Fdescription%2Fss-followup-fields.png)
+![ss-scheduled-action-page.png](static%2Fdescription%2Fss-scheduled-action-page.png)
 ![ss-cronjob-run-manually.png](static%2Fdescription%2Fss-cronjob-run-manually.png)
-![ss-scheduled-action-page.png](static%2Fdescription%2Fss-scheduled-action-page.png)*
+![ss-cron-job-output.png](static%2Fdescription%2Fss-cron-job-output.png)
+*
 
 ## 🧑‍💻 Author
 [Kavin Chandrasekar](https://github.com/KavainChandrasekar)
