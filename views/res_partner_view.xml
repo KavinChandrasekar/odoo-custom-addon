@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <odoo>
   <record id="view_partner_form_inherit_custom" model="ir.ui.view">
     <field name="name">res.partner.form.inherit.custom</field>
@@ -7,6 +7,8 @@
     <field name="arch" type="xml">
       <xpath expr="//field[@name='vat']" position="after">
         <field name="x_custom_code"/>
+        <field name="follow_up_date"/>
+        <field name="follow_up_done"/>
       </xpath>
     </field>
   </record>
