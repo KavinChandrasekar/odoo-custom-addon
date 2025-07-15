@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_res_partner_custom,access_res_partner_custom,base.model_res_partner,,1,1,1,1
+access_res_partner_custom_user,User Access to Follow-Up,base.model_res_partner,base.group_user,1,0,0,0
+access_res_partner_custom_manager,Manager Access to Follow-Up,base.model_res_partner,base.group_system,1,1,1,0
