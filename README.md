@@ -5,11 +5,15 @@
 - Add `Follow-Up Date` and `Follow-Up Done` fields.
 - Daily cron job to auto-mark follow-up done if date matches today.
 - **Manual "Mark Follow-Up Done" smartbutton** added to each contact for manual control.
+- User permissions:
+  - Users: Read-only
+  - Managers/Admins: Can create and update follow-ups
 
-## 🛠️ Installation
-1. Copy this module into your Odoo addons path.
-2. Go to Apps > Update Apps List.
-3. Search for "Custom Odoo Addon" and install.
+## 📦 Installation
+1. Copy this module into your Odoo's `addons/` folder.
+2. Update Apps List.
+3. Search for `Custom CRM Follow-Up`.
+4. Install.
 
 ## 📋 Usage
 
@@ -33,6 +37,7 @@
     **"Mark this Contact's Follow-Up as Done"**.
   - Clicking the button will immediately mark **Follow-Up Done** as True for that contact.
 - This button disappears once the follow-up is completed.
+- 
 
 > **Why?**  
 > Use the button for manual control when follow-up is handled earlier than scheduled or when skipping automation.
