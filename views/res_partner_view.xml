@@ -12,4 +12,25 @@
       </xpath>
     </field>
   </record>
+
+ <!--smart button -->
+   <record id="view_partner_form_inherit_followup_button" model="ir.ui.view">
+    <field name="name">res.partner.form.inherit.followup.button</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="base.view_partner_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//div[@class='oe_button_box']" position="inside">
+        <button name="action_mark_followup_done"
+                type="object"
+                class="oe_stat_button"
+                icon="fa-check"
+                attrs="{'invisible': [('follow_up_done','=',True)]}">
+                title="Mark this Contact's Follow-Up as Done">
+          <div class="o_stat_info">
+            <span class="o_stat_text">Mark Follow-Up</span>
+          </div>
+        </button>
+      </xpath>
+    </field>
+  </record>
 </odoo>
